@@ -97,7 +97,6 @@ Output:
 true
 
 
-
 ## Algorithm Overview
 
 This problem is solved using **graph traversal with cycle detection**:
@@ -127,6 +126,108 @@ Source file : Q2.java, Q2.cpp
 - `O(N)` for visited state tracking.
 - `O(N + E)` for the adjacency list.
 - `O(N)` for the recursion stack in the worst case (deepest DFS path).
+
+---
+
+## Q.3 Problem Description
+
+Create a **GPU-accelerated particle system** using **OpenGL ES 2.0+ or 3.0** that simulates a **fireworks display** or **magical energy burst**. The system demonstrates knowledge of **OpenGL rendering**, **shader programming**, **animation**, and **performance optimization**.
+
+## Requirements
+
+### Particle System Basics
+
+- Particles spawn from a central point or burst area.
+- Each particle has:
+  - **Position**
+  - **Velocity**
+  - **Color** (can change over time)
+  - **Lifetime** (particles fade out and disappear)
+
+### Shader Usage
+
+- Use **vertex** and **fragment shaders** to render particles.
+- Implement **additive blending** for glowing effects.
+- Optionally use **point sprites** or **textured quads**.
+
+### Animation
+
+- Particles move over time using velocity and optional gravity.
+- **Color and opacity transition** over time until the particle disappears.
+
+### Interactivity
+
+- User **click/tap** spawns a new particle burst at the clicked position.
+- Optional controls to:
+  - Change particle **count**
+  - Modify **gravity**
+  - Cycle **colors**
+
+### Performance
+
+- Efficiently handle **hundreds or thousands** of particles.
+- Use **Vertex Buffer Objects (VBOs)** or **instanced rendering** when supported.
+- Minimize per-frame CPU-GPU communication.
+
+
+## Input
+
+No formal input. The system runs continuously and responds to **user interaction** (click/tap).
+
+## Output
+
+Real-time rendering of a **dynamic particle system** simulating fireworks or energy bursts.
+
+## Example Scenarios
+
+- On application start, particles burst from the center.
+- On mouse click, a new burst occurs at that position.
+- Particles shimmer, fade, and fall based on their velocity and gravity.
+
+## Algorithm Overview
+
+- Use **object-oriented design** to represent particles and their properties.
+- Maintain a **dynamic array** or buffer of active particles.
+- Each frame:
+  - Update particle positions using velocity.
+  - Decrease lifetime and fade out expired particles.
+  - Upload active particles to the GPU and render.
+- Use shaders for **rendering and visual effects**.
+- Apply **additive blending** to make overlapping particles glow.
+
+## Files
+
+Source file : `particle_system.cpp`
+Shader files : `particle.vs`, `particle.fs`
+
+## Time Complexity
+
+- `O(P)` per frame for particle updates and rendering,  
+  where `P` is the number of live particles.
+
+## Space Complexity
+
+- `O(P)` for storing particle state in CPU memory.
+- `O(P)` GPU memory if using VBO or dynamic arrays.
+
+## Platforms
+
+- **C++** version built using **GLFW + GLAD** with desktop OpenGL 3.3+
+
+## Steps to run
+
+1. Clone the repo and `cd` into the project folder.
+2. Install dependencies:
+   - GLFW
+   - GLAD
+   - OpenGL 3.3+
+3. Build with CMake:
+
+```bash
+mkdir build && cd build
+cmake ..
+make
+./ParticleSystem
 
 
 
