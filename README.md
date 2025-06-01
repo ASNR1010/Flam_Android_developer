@@ -8,7 +8,7 @@ Flam_Android_developer/Assignment 2/
 ├── Q2.cpp                 # Module Cycle Detection (C++)
 ├── Q3. particle_system/
 │   ├── src/
-│   |    └── particle_system.cpp    # GPU Particle System (C++ - OpenGL)
+│   |    └── main.cpp    # GPU Particle System (C++ - OpenGL)
 │   └── shaders/
 │   |    ├── particle.vs        # Vertex Shader
 │   |    └── particle.fs        # Fragment Shader
@@ -212,7 +212,7 @@ Real-time rendering of a **dynamic particle system** simulating fireworks or ene
 
 ## Files
 
-Source file : [`particle_system.cpp`](https://github.com/ASNR1010/Flam_Android_developer/blob/main/Assignment%202%20/particle_system/src/main.cpp)
+Source file : [`main.cpp`](https://github.com/ASNR1010/Flam_Android_developer/blob/main/Assignment%202%20/particle_system/src/main.cpp)
 Shader files : [`particle.vs`](https://github.com/ASNR1010/Flam_Android_developer/blob/main/Assignment%202%20/particle_system/shaders/particle.vs), [`particle.fs`](https://github.com/ASNR1010/Flam_Android_developer/blob/main/Assignment%202%20/particle_system/shaders/particle.fs)
 
 ## Time Complexity
