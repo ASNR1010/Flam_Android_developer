@@ -115,6 +115,10 @@ This problem is solved using **graph traversal with cycle detection**:
 
 ---
 
+## Solution 
+Source file : Q2.java, Q2.cpp 
+[Explained with code comments]
+
 ## Time Complexity
 
 - `O(N + E)` overall:
