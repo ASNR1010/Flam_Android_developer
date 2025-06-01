@@ -6,7 +6,7 @@ Flam_Android_developer/Assignment 2/
 │── Q1.cpp                 # N-Queens Problem (C++)
 ├── Q2.java                # Module Cycle Detection (Java)
 ├── Q2.cpp                 # Module Cycle Detection (C++)
-├── particle_system/
+├── Q3. particle_system/
 │   ├── src/
 │   |    └── particle_system.cpp    # GPU Particle System (C++ - OpenGL)
 │   └── shaders/
