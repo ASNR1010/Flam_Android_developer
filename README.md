@@ -54,8 +54,7 @@ Source file : Q1.java, Q1.cpp
 - `O(N)` for the recursion call stack.
 - `O(N^2 × S)` for storing all solutions, where `S` is the number of valid solutions.
 
-
-
+---
 
 ## Q.2 Problem Description
 
@@ -98,7 +97,6 @@ Output:
 true
 
 
----
 
 ## Algorithm Overview
 
@@ -113,7 +111,6 @@ This problem is solved using **graph traversal with cycle detection**:
 - If we revisit a node that's marked as `1` (i.e., already in the recursion stack), it means a **cycle** exists.
 - Special case: **self-loop** (e.g. `{a, a}`) is also a cycle.
 
----
 
 ## Solution 
 Source file : Q2.java, Q2.cpp 
