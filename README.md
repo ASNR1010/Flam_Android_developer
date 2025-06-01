@@ -1,5 +1,20 @@
 # Flam_Android_developer
 
+```plaintext
+Flam_Android_developer/Assignment 2/
+├── Q1.java                # N-Queens Problem (Java)
+│── Q1.cpp                 # N-Queens Problem (C++)
+├── Q2.java                # Module Cycle Detection (Java)
+├── Q2.cpp                 # Module Cycle Detection (C++)
+├── particle_system/
+│   ├── src/
+│   |    └── particle_system.cpp    # GPU Particle System (C++ - OpenGL)
+│   └── shaders/
+│   |    ├── particle.vs        # Vertex Shader
+│   |    └── particle.fs        # Fragment Shader
+|   └── CMakeLists  
+└── README.md                  # Project-wide documentation
+```
 
 ## Q.1 Problem Description
 The **N-Queens** puzzle involves placing N queens on an `N x N` chessboard so that no two queens threaten each other. A valid solution ensures that no two queens share the same row, column, or diagonal.
