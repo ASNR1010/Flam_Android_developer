@@ -16,7 +16,7 @@ Flam_Android_developer/Assignment 2/
 └── README.md                  # documentation
 ```
 
-## Q.1 Problem Description
+## [Q.1 Problem Description](https://github.com/ASNR1010/Flam_Android_developer/blob/main/Assignment%202%20/Q1.java)
 The **N-Queens** puzzle involves placing N queens on an `N x N` chessboard so that no two queens threaten each other. A valid solution ensures that no two queens share the same row, column, or diagonal.
 
 ## Input
@@ -54,7 +54,7 @@ This problem is solved using **recursive backtracking**:
 - Backtrack and try the next column.
 
 ## Solution 
-Source file : Q1.java, Q1.cpp 
+Source file : [Q1.java](https://github.com/ASNR1010/Flam_Android_developer/blob/main/Assignment%202%20/Q1.java), [Q1.cpp](https://github.com/ASNR1010/Flam_Android_developer/blob/main/Assignment%202%20/Q1.cpp) 
 [Explained with code comments]
 
 ## Time Complexity
@@ -71,7 +71,7 @@ Source file : Q1.java, Q1.cpp
 
 ---
 
-## Q.2 Problem Description
+## [Q.2 Problem Description](https://github.com/ASNR1010/Flam_Android_developer/blob/main/Assignment%202%20/Q2.java)
 
 You are building a **module loader** for a large software system. Each module may depend on one or more other modules. Before loading, you must ensure that the **dependencies do not contain any circular dependency**, as that would lead to infinite loading loops.
 
@@ -127,7 +127,7 @@ This problem is solved using **graph traversal with cycle detection**:
 
 
 ## Solution 
-Source file : Q2.java, Q2.cpp 
+Source file : [Q2.java](https://github.com/ASNR1010/Flam_Android_developer/blob/main/Assignment%202%20/Q2.java), [Q2.cpp](https://github.com/ASNR1010/Flam_Android_developer/blob/main/Assignment%202%20/Q2.cpp) 
 [Explained with code comments]
 
 ## Time Complexity
@@ -144,7 +144,7 @@ Source file : Q2.java, Q2.cpp
 
 ---
 
-## Q.3 Problem Description
+## [Q.3 Problem Description](https://github.com/ASNR1010/Flam_Android_developer/tree/main/Assignment%202%20/particle_system)
 
 Create a **GPU-accelerated particle system** using **OpenGL ES 2.0+ or 3.0** that simulates a **fireworks display** or **magical energy burst**. The system demonstrates knowledge of **OpenGL rendering**, **shader programming**, **animation**, and **performance optimization**.
 
@@ -212,8 +212,8 @@ Real-time rendering of a **dynamic particle system** simulating fireworks or ene
 
 ## Files
 
-Source file : `particle_system.cpp`
-Shader files : `particle.vs`, `particle.fs`
+Source file : [`particle_system.cpp`](https://github.com/ASNR1010/Flam_Android_developer/blob/main/Assignment%202%20/particle_system/src/main.cpp)
+Shader files : [`particle.vs`](https://github.com/ASNR1010/Flam_Android_developer/blob/main/Assignment%202%20/particle_system/shaders/particle.vs), [`particle.fs`](https://github.com/ASNR1010/Flam_Android_developer/blob/main/Assignment%202%20/particle_system/shaders/particle.fs)
 
 ## Time Complexity
 
