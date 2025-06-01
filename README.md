@@ -28,5 +28,32 @@ Output:
    ".Q.."]
 ]
 
+## Algorithm Overview
+This problem is solved using **recursive backtracking**:
+
+- Try placing a queen in each column of the current row.
+- Check if the placement is safe:
+  - No other queens in the same column.
+  - No queens on upper-left and upper-right diagonals.
+- If safe, move to the next row.
+- If the end is reached, save the board configuration.
+- Backtrack and try the next column.
+
+## Solution 
+Q1.java
+
+
+## ⏱️ Time Complexity
+**Worst-case:** `O(N!)`
+
+- Each row tries `N` columns.
+- With pruning through `isSafe()` checks, many invalid states are avoided.
+- Still factorial in nature due to permutations of positions.
+
+## 🧠 Space Complexity
+- `O(N^2)` for the board representation.
+- `O(N)` for the recursion call stack.
+- `O(N^2 × S)` for storing all solutions, where `S` is the number of valid solutions.
+
 
 
