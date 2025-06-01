@@ -39,8 +39,8 @@ This problem is solved using **recursive backtracking**:
 - Backtrack and try the next column.
 
 ## Solution 
-Source file : Q1.java 
-Explained with code comments
+Source file : Q1.java, Q1.cpp 
+[Explained with code comments]
 
 ## Time Complexity
 **Worst-case:** `O(N!)`
