@@ -2,6 +2,7 @@ import java.util.*;
 
 public class NQueensSolver {
 
+    // solves the n-queens problem and returns all valid board configurations
     public List<List<String>> solveNQueens(int n) {
         List<List<String>> solutions = new ArrayList<>(); // list to store all the valid solutions
         char[][] board = new char[n][n]; // initialize a 2D board
@@ -66,12 +67,19 @@ public class NQueensSolver {
 
     // main method to run and test the solution
     public static void main(String[] args) {
-        NQueensSolver solver = new NQueensSolver();
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the value of n (1 to 9): ");
+        int n = sc.nextInt();
 
-        int n = 4; // example input
+        if (n < 1 || n > 9) {
+            System.out.println("Invalid input. n must be between 1 and 9.");
+            return;
+        }
+
+        NQueensSolver solver = new NQueensSolver();
         List<List<String>> solutions = solver.solveNQueens(n);
 
-        // print all solutions
+        System.out.println("Total solutions: " + solutions.size());
         for (List<String> sol : solutions) {
             for (String row : sol) {
                 System.out.println(row);
