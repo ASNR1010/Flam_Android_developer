@@ -1,8 +1,7 @@
 # Flam_Android_developer
 
 
-
-## Q.1 Problem Description
+# Q.1 Problem Description
 The **N-Queens** puzzle involves placing N queens on an `N x N` chessboard so that no two queens threaten each other. A valid solution ensures that no two queens share the same row, column, or diagonal.
 
 ## Input
