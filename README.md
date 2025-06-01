@@ -13,7 +13,7 @@ Flam_Android_developer/Assignment 2/
 │   |    ├── particle.vs        # Vertex Shader
 │   |    └── particle.fs        # Fragment Shader
 |   └── CMakeLists  
-└── README.md                  # Project-wide documentation
+└── README.md                  # documentation
 ```
 
 ## Q.1 Problem Description
