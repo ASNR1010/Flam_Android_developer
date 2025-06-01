@@ -40,17 +40,17 @@ This problem is solved using **recursive backtracking**:
 - Backtrack and try the next column.
 
 ## Solution 
-Q1.java
+Source file : Q1.java 
+Explained with code comments
 
-
-## ⏱️ Time Complexity
+## Time Complexity
 **Worst-case:** `O(N!)`
 
 - Each row tries `N` columns.
 - With pruning through `isSafe()` checks, many invalid states are avoided.
 - Still factorial in nature due to permutations of positions.
 
-## 🧠 Space Complexity
+## Space Complexity
 - `O(N^2)` for the board representation.
 - `O(N)` for the recursion call stack.
 - `O(N^2 × S)` for storing all solutions, where `S` is the number of valid solutions.
